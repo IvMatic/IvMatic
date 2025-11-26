@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-# Hi, I'm [Your Name] 👋
+# Hi, I'm Ivan 👋
 
 I'm interested in **AI interpretability** and **AI safety**.
 
