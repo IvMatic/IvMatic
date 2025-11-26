@@ -1,16 +1,15 @@
 ## Hi there 👋
 
-<!--
-**IvMatic/IvMatic** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hi, I'm [Your Name] 👋
 
-Here are some ideas to get you started:
+I'm interested in **AI interpretability** and **AI safety**.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### What I'm working on
+- 🔍 Reproducing interpretability papers with open models
+- 🧪 Small experiments on robustness & safety
+- 📚 Notes on interpretability & alignment literature
+
+### Selected projects
+- [Project 1: Attention Visualization in Transformers](https://github.com/yourname/attention-viz)
+- [Project 2: Toy Safety Experiments with LLM Prompts](https://github.com/yourname/llm-safety-toys)
+
