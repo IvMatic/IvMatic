@@ -9,7 +9,10 @@ I'm interested in **AI interpretability** and **AI safety**.
 - 🧪 Small experiments on robustness & safety
 - 📚 Notes on interpretability & alignment literature
 
-### Selected projects
-- [Project 1: Attention Visualization in Transformers](https://github.com/yourname/attention-viz)
-- [Project 2: Toy Safety Experiments with LLM Prompts](https://github.com/yourname/llm-safety-toys)
+### Transformer Interpretability Projects
+
+- 🧬 [Features in Transformer Models](https://github.com/yourname/transformer-features-interpretability)
+- 🔌 [Circuits in Transformers](https://github.com/yourname/transformer-circuits)
+- 🌍 [Universality in Transformer Circuits](https://github.com/yourname/transformer-universality)
+
 
