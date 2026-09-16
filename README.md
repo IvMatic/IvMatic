@@ -29,7 +29,7 @@ The completed analyses show positive prefix intrinsic-dimension
 differences that persist under the tested controls on the retained
 cohorts. These findings describe associations, not causal mechanisms.
 
-[Explore the project]([(https://github.com/IvMatic/llm-representation-geometry)])
+[Explore the project](https://github.com/IvMatic/llm-representation-geometry)
 
 ## What I’m working toward
 
