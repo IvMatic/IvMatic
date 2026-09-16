@@ -51,8 +51,6 @@ My interests include:
 ## What I’m working toward
 
 - Making my experiments reproducible from a fresh environment.
-- Testing correctness prediction from prefix representations
-  on unseen problems.
 - Developing my MSc extension into a research paper.
 - Building the mathematical and experimental skills needed
   for fundamental AI research.
