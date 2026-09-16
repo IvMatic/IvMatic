@@ -1,54 +1,64 @@
 # Hi, I'm Ivan 👋
 
-I’m developing my research skills in **AI interpretability**, with an
-interest in **AI safety** and how language models represent information
-during reasoning.
+I’m an MSc graduate in Artificial Intelligence.
 
-My current work extends my MSc thesis on the geometry of transformer
-hidden-state representations during correct and incorrect mathematical
-responses.
+My long-term research goal is to **understand and advance the
+mathematical foundations of intelligence**.
+
+I’m currently pursuing this through **AI interpretability** and
+**representation geometry**, studying how internal representations
+relate to reasoning in language models.
 
 ## Current research
 
 ### Representation Geometry of LLM Responses
 
-I investigate whether correct and incorrect responses exhibit different
-intrinsic dimensions in their hidden-state representations.
+I’m extending my MSc thesis on the geometry of transformer hidden
+states during correct and incorrect mathematical responses.
 
-Using Phi-2 and GSM8K, my work includes:
+Using Phi-2 and GSM8K, I investigate how estimated intrinsic dimension
+differs between correct and incorrect attempts, and whether those
+differences persist under specific controls.
+
+My work includes:
 
 - Comparing full-sequence and prefix representations.
 - Auditing duplicate representations and numerical stability.
 - Matching correct and incorrect attempts within problems.
-- Evaluating sensitivity to individual problems using
-  leave-one-problem-out analysis.
-- Testing whether geometric differences persist after controlling
-  response length and simple formatting features.
+- Evaluating leave-one-problem-out sensitivity.
+- Controlling for response length and simple formatting features.
 
-The completed analyses show positive prefix intrinsic-dimension
-differences that persist under the tested controls on the retained
-cohorts. These findings describe associations, not causal mechanisms.
+On the retained cohorts, positive prefix intrinsic-dimension
+differences persist under the tested controls. These findings
+describe associations rather than causal mechanisms.
 
-[Explore the project](https://github.com/IvMatic/llm-representation-geometry)
+[Explore the project →](https://github.com/IvMatic/llm-representation-geometry)
+
+## Research direction
+
+I’m interested in the mathematical principles underlying
+representation, learning, and reasoning—and how understanding
+those principles could inform improvements to intelligent systems.
+
+My interests include:
+
+- Mathematical foundations of intelligence
+- Geometry of learned representations
+- Mechanistic interpretability
+- Reasoning dynamics in language models
+- Causal interventions and their relevance to AI safety
 
 ## What I’m working toward
 
-- Making my experiments easier to reproduce.
-- Evaluating correctness prediction from prefix representations
+- Making my experiments reproducible from a fresh environment.
+- Testing correctness prediction from prefix representations
   on unseen problems.
-- Developing this work into a research paper.
-
-## Research interests
-
-- Transformer interpretability
-- Representation geometry
-- Mathematical reasoning in language models
-- Reliable evaluation and reproducible research
-- AI safety
+- Developing my MSc extension into a research paper.
+- Building the mathematical and experimental skills needed
+  for fundamental AI research.
 
 ## Connect
 
-I’m interested in research collaborations and opportunities in
-AI interpretability and research engineering.
-
-
+I’m interested in research collaborations and opportunities
+in AI interpretability and research engineering, particularly
+work connecting mathematical ideas with careful empirical experiments.
