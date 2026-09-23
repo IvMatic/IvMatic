@@ -7,7 +7,7 @@ mathematical foundations of intelligence**.
 
 I’m currently pursuing this through **AI interpretability** and
 **representation geometry**, studying how internal representations
-relate to reasoning in language models.
+relate to reasoning and response correctness in language models.
 
 ## Current research
 
@@ -16,9 +16,9 @@ relate to reasoning in language models.
 I’m extending my MSc thesis on the geometry of transformer hidden
 states during correct and incorrect mathematical responses.
 
-Using Phi-2 and GSM8K, I investigate how estimated intrinsic dimension
-differs between correct and incorrect attempts, and whether those
-differences persist under specific controls.
+Using Phi-2 and GSM8K, I investigate differences in estimated
+intrinsic dimension, the assumptions behind those measurements,
+and the predictive information available in prefix representations.
 
 My work includes:
 
@@ -26,11 +26,22 @@ My work includes:
 - Auditing duplicate representations and numerical stability.
 - Matching correct and incorrect attempts within problems.
 - Evaluating leave-one-problem-out sensitivity.
-- Controlling for response length and simple formatting features.
+- Controlling for length and simple formatting features.
+- Investigating neighborhood size and same-problem grouping.
+- Testing linear correctness prediction on held-out problems.
 
-On the retained cohorts, positive prefix intrinsic-dimension
-differences persist under the tested controls. These findings
-describe associations rather than causal mechanisms.
+Recent experiments show that the positive pooled `pre_last`
+intrinsic-dimension gap depends strongly on same-problem neighbors.
+Excluding those neighbors reverses the late-layer average gap,
+while count-matched random exclusion leaves it nearly unchanged.
+
+Separately, linear probes extract correctness-related information
+from prefix representations on held-out problems, outperforming
+the tested length-and-formatting baseline.
+
+These findings help distinguish properties of the representations
+from effects of the measurement procedure. They do not establish
+a causal reasoning mechanism.
 
 [Explore the project →](https://github.com/IvMatic/llm-representation-geometry)
 
@@ -52,11 +63,12 @@ My interests include:
 
 - Making my experiments reproducible from a fresh environment.
 - Developing my MSc extension into a research paper.
+- Preparing for PhD research.
 - Building the mathematical and experimental skills needed
   for fundamental AI research.
 
 ## Connect
 
-I’m interested in research collaborations and opportunities
-in AI interpretability and research engineering, particularly
-work connecting mathematical ideas with careful empirical experiments.
+I’m interested in research collaborations, PhD opportunities,
+and research engineering roles, particularly work connecting
+mathematical ideas with careful empirical experiments.
